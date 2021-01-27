@@ -36,7 +36,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Method override middleware
-// app.use(methodOverride('_method'));
+app.use(methodOverride('_method'));
 
 // Express session middleware
 app.use(session({
@@ -70,7 +70,7 @@ app.get('/', (req, res) => {
 
 // Use routes
 // app.use('/gallery', gallery);
-// app.use('/users', users);
+app.use('/users', users);
 // app.use('/auth', auth);
 
 const port = 5000;

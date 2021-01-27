@@ -1,0 +1,1 @@
+<h1>Delete a single gallery</h1>

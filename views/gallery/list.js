@@ -1,0 +1,1 @@
+<h1>List all galleries created by all users</h1>
