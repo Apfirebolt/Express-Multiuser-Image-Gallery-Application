@@ -1,0 +1,1 @@
+<h1>Detail of a single gallery</h1>
